@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>爱生活</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- STR 顶部 -->
+      <div class="header">
+        <a class="logo"></a>
+        <ul class="nav">
+          <li><a id="indexBtn">首頁</a></li>
+          <li><a id="seaveBtn">愛生活服務</a></li>
+          <li><a id="introBtn">智能取餐櫃</a></li>
+          <li><a id="caseBtn">案例介紹</a></li>
+          <li><a id="aboutBtn">關於愛生活</a></li>
+          <li><a id="linkBtn">聯繫我們</a></li>
+        </ul>
+      </div>
+      <!-- END 顶部 -->
+      <!-- STR 第一屏 -->
+      <div class="first-con con-box" id="index">
+        <div class="intro-txt">
+          <p>
+            愛生活致力解決新零售時代同城交付問題<br />
+            深度了解外送取餐的應用場景以及使用方式<br />
+            以網路+智能硬體結合<br />
+            打造AIOT智慧聯網，提供存取服務
+          </p>
+        </div>
+        <ul class="intro-list">
+          <li><i class="s1"></i><span>零接觸</span></li>
+          <li><i class="s2"></i><span>消毒殺菌</span></li>
+          <li><i class="s3"></i><span>自動存取</span></li>
+          <li><i class="s4"></i><span>加熱保溫</span></li>
+        </ul>
+      </div>
+      <!-- END 第一屏 -->
+      <!-- STR 第二屏 -->
+      <div class="second-con con-box">
+        <h3 class="sec-tit">你覺得餐點放這兒<br />能安心嗎?</h3>
+        <ul class="sec-list">
+          <li><img src="pic/first-01.jpg" alt="图1" /></li>
+          <li><img src="pic/first-02.jpg" alt="图2" /></li>
+          <li><img src="pic/first-03.jpg" alt="图3" /></li>
+          <li><img src="pic/first-04.jpg" alt="图4" /></li>
+        </ul>
+        <div class="sec-trouble">
+          <div class="trouble-tit">
+            <span>傳統外送取餐問題</span>
+          </div>
+          <ul class="trouble-list">
+            <li>配送隨意堆放</li>
+            <li>天冷餐品保溫困難</li>
+            <li>餐品隨地擺放</li>
+            <li>餐廳排隊、擁擠</li>
+          </ul>
+        </div>
+        <h3 class="sec-tit2">食品衛生、安全管理 是值得注重的問題</h3>
+      </div>
+      <!-- END 第二屏 -->
+      <!-- STR 第三屏 -->
+      <div class="third-con con-box">
+        <ul class="third-img-list">
+          <li><img src="pic/sec-01.jpg" alt="图1" /></li>
+          <li><img src="pic/sec-02.jpg" alt="图2" /></li>
+          <li><img src="pic/sec-03.jpg" alt="图3" /></li>
+        </ul>
+        <div class="third-tit">外送亂象層出不窮</div>
+        <ul class="third-trouble-list">
+          <li>
+            <i class="icon1"></i>
+            <em>食品衛生</em>
+            <span>
+              熱的食品變冷冷的食品，甚至餐點變質<br />
+              餐點誤取、甚至盜取<br />
+              取物的人需翻找哪個是自己的餐點<br />
+              外賣配送隨地亂放<br />
+              蚊蟲滋生容易導致二次污染，衛生無法保證
+            </span>
+          </li>
+          <li>
+            <i class="icon2"></i>
+            <em>安全管理</em>
+            <span>
+              外送員須等待客戶取貨，造成交通環境雜亂<br />
+              取餐時間集中，增加群聚風險<br />
+              外送人員進入院區，增加不確定因素接觸<br />
+              無序的管理，易形成髒、亂、差的現象<br />
+              影響醫院環境，增加綜合治理、管理難度
+            </span>
+          </li>
+        </ul>
+      </div>
+      <!-- END 第三屏 -->
+      <!-- STR 第四屏 -->
+      <div class="four-con con-box">
+        <div class="four-tit">
+          您需要智能存取柜<br />
+          守护您的餐点
+        </div>
+        <ul class="four-list">
+          <li>
+            <i class="s1"></i>
+            <em>加熱保溫</em>
+            <p>
+              可獨立單格加熱，智能溫控，保證食物所需溫度，美味不怕涼
+              加熱５-6分鐘即可達到體感溫度,格子空間溫度為<span
+                style="color: #f00"
+                >45度-60度</span
+              >之間
+            </p>
+          </li>
+          <li>
+            <i class="s2"></i>
+            <em>消毒</em>
+            <p>
+              採用紫外線消毒，不會產生死角，食品級臭氧，廣泛用於飲用水消毒
+              對於不管是細菌病毒或者孢子微生物都具有殺滅的作用
+            </p>
+          </li>
+          <li>
+            <i class="s3"></i>
+            <em>無接觸配送</em>
+            <p>
+              保證用戶和外送員在收餐環節的安全，最大限度降低取餐人員被接觸的風險機率
+            </p>
+          </li>
+          <li>
+            <i class="s4"></i>
+            <em>加快外送員的速度</em>
+            <p>最大限度提高外送員的送餐速度</p>
+          </li>
+        </ul>
+      </div>
+      <!-- END 第四屏 -->
+      <!-- STR 第五屏 -->
+      <div class="five-con con-box" id="seave">
+        <div class="five-tit">網路訂單線下交付服務商</div>
+        <div class="five-txt">
+          提供外賣配送與消費者最後100米的訂單交付服務，提升配送效率，提高消費體驗<br />
+          數字化訂單交付服務運營業務
+        </div>
+        <ul class="five-list">
+          <li>
+            <em>運營模式</em>
+            <img src="pic/f1.jpg" alt="" />
+            <p>
+              針對目前各個辦公大樓外賣的現狀:外賣亂放，影響公共場所形象與環境，人員混亂，增加管理難度，物業成本高，配送效率低等痛點。推出基於數字訂單末端交付場景提供終端智能設備＋軟件系統，減少履約的交付成本，實現降本增效
+            </p>
+          </li>
+          <li>
+            <em>運營案例</em>
+            <img src="pic/f2.jpg" alt="" />
+            <p>
+              愛生活為商辦大樓、醫院、學校及社
+              區等多個場景提供無人交付服務，大大提升交付效率，為顧客提供更好的生活便利
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- END 第五屏 -->
+      <!-- STR 第六屏 -->
+      <div class="six-con con-box" id="intro">
+        <div class="six-tit">智能櫃系列產品</div>
+        <div class="six-txt">
+          櫃子具備保溫加熱、消毒節能、單格鎖控等功能；<br />
+          外賣取餐櫃使得外賣得以統一管理<br />
+          外賣安全有保障，提升配送員配送效率，減少配送等待時間，提升顧客體驗感。<br />
+          操作簡單，高效便捷。 根據取餐櫃格子數不同，標準產品分為21門、32門
+        </div>
+        <ul class="six-list">
+          <li>
+            <img src="pic/six1.jpg" alt="" />
+          </li>
+          <li>
+            <img src="pic/six2.jpg" alt="" />
+          </li>
+          <li>
+            <img src="pic/six3.png" alt="" />
+          </li>
+        </ul>
+      </div>
+      <!-- END 第六屏 -->
+      <!-- STR 第七屏 -->
+      <div class="seven-con con-box">
+        <div class="seven-tit">智能櫃系列產品特色</div>
+        <div class="seven-main">
+          <img src="pic/goods-01.jpg" alt="智能櫃系列產品特色" />
+          <ul class="seven-list">
+            <li>
+              <i class="t1"></i>
+              <em>櫃體尺寸</em>
+              <span>單櫃:1904*665*400 21格或32格</span>
+            </li>
+            <li>
+              <i class="t2"></i>
+              <em>加熱保溫</em>
+              <span
+                >可獨立單格加熱，智能溫控，保證食物所需溫度，
+                加熱5-6分鐘可達體感溫度，正常運行後格子空間溫度為<span
+                  style="color: #f00"
+                  >60</span
+                >度</span
+              >
+            </li>
+            <li>
+              <i class="t3"></i>
+              <em>消毒</em>
+              <span
+                >採用紫外燈光消毒，不產生死角，不管是細菌病毒或是孢子
+                都具有殺滅作用</span
+              >
+            </li>
+            <li>
+              <i class="t4"></i>
+              <em>能耗</em>
+              <span
+                >待機&lt;30W,滿載負荷開啟約480W，實際耗電:<=0.48度/H
+                相當於一台電腦耗電量</span
+              >
+            </li>
+            <li>
+              <i class="t5"></i>
+              <em>單格控制</em>
+              <span
+                >單格可獨立控制照明、消毒、加熱、開鎖、可拆卸，使用
+                維護方便</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END 第七屏 -->
+      <!-- STR 产品1 -->
+      <div class="product-con con-box">
+        <div class="product-txt">智能櫃全系列產品</div>
+        <div class="product-main">
+          <img src="pic/goods-02.jpg" alt="３２門主櫃" />
+          <div class="product-main-con">
+            <div class="tit">
+              <h3>３２門主櫃</h3>
+              <span>產品型號: AUV-32ZHD/32FHD(32門主櫃)</span>
+            </div>
+            <ul class="product-main-list">
+              <li>
+                <label>外觀尺寸:</label
+                ><span>1294(寬)*1904(高)*400(深) mm</span>
+              </li>
+              <li>
+                <label>小格口尺寸:</label
+                ><span>250(寬)*130(高)*320(深) mm</span>
+              </li>
+              <li>
+                <label>大格口尺寸:</label
+                ><span>250(寬)*190(高)*320 (深) mm</span>
+              </li>
+              <li><label>外殼材質:</label><span>鍍鋅板</span></li>
+              <li><label>櫃門材質：</label><span>鍍鋅板+透明亞克力</span></li>
+              <li><label>空間溫度:</label><span> 50°C-60°C(格子內)</span></li>
+              <li>
+                <label>環境溫度:</label
+                ><span>- 10°C-40°C(0°C-40°C為設備最佳運行溫度)</span>
+              </li>
+              <li><label>環境濕度:</label><span>5%-95% RH</span></li>
+              <li><label>產品功率:</label><span>約960W/台</span></li>
+              <li><label>重 量:</label><span>約130KG/台</span></li>
+              <li><label>輸入電壓:</label><span>110V</span></li>
+              <li>
+                <label>功 能:</label
+                ><span
+                  >10.1寸安卓一體機、二維碼掃描器、獨立單
+                  格加熱保溫、消毒燈，照明燈</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END 产品1 -->
+      <!-- STR 产品2 -->
+      <div class="product-con con-box">
+        <div class="product-txt">智能櫃全系列產品</div>
+        <div class="product-main">
+          <img src="pic/goods-03.jpg" alt="３２門副櫃" />
+          <div class="product-main-con">
+            <div class="tit">
+              <h3>３２門副櫃</h3>
+              <span>產品型號: AUV-32ZHD/32FHD(32門副櫃) </span>
+            </div>
+            <ul class="product-main-list">
+              <li>
+                <label>外觀尺寸:</label
+                ><span>1294(寬)*1904(高)*400(深) mm</span>
+              </li>
+              <li>
+                <label>小格口尺寸:</label
+                ><span>250(寬)*130(高)*320(深) mm</span>
+              </li>
+              <li>
+                <label>大格口尺寸:</label
+                ><span>250(寬)*190(高)*320 (深) mm</span>
+              </li>
+              <li><label>外殼材質:</label><span>鍍鋅板</span></li>
+              <li><label>櫃門材質:</label><span>鍍鋅板+透明亞克力</span></li>
+              <li><label>空間溫度: </label><span>50°C-60°C(格子內)</span></li>
+              <li>
+                <label>環境溫度:</label
+                ><span>- 10°C-40°C(0°C-40°C為設備最佳運行溫度)</span>
+              </li>
+              <li><label>環境濕度：</label><span>5%-95% RH</span></li>
+              <li><label>產品功率: </label><span>約960W/台</span></li>
+              <li><label>重 量: </label><span>約130KG/台</span></li>
+              <li><label>輸入電壓:</label><span>110V</span></li>
+              <li>
+                <label>功 能: </label
+                ><span
+                  >10.1寸安卓一體機、二維碼掃描器、獨立單
+                  格加熱保溫、消毒燈，照明燈</span
+                >
+              </li>
+            </ul>
+            <div class="product-tip">與32門主櫃搭配使用</div>
+          </div>
+        </div>
+      </div>
+      <!-- END 产品2 -->
+      <!-- STR 产品3 -->
+      <div class="product-con con-box">
+        <div class="product-txt">智能櫃全系列產品</div>
+        <div class="product-main">
+          <img src="pic/goods-04.jpg" alt="21門主櫃" />
+          <div class="product-main-con">
+            <div class="tit">
+              <h3>21門主櫃</h3>
+              <span>產品型號: DB21ZHD-P(21門主櫃)</span>
+            </div>
+            <ul class="product-main-list">
+              <li>
+                <label>外觀尺寸:</label
+                ><span>1030(寬)*2035(高)*380(深) mm</span>
+              </li>
+              <li>
+                <label>小格口尺寸:</label
+                ><span>248(寬)*185(高)*300(深) mm</span>
+              </li>
+              <li>
+                <label>大格口尺寸:</label
+                ><span>248(寬)*304(高)*300 (深) mm</span>
+              </li>
+              <li><label>外殼材質:</label><span>鍍鋅板</span></li>
+              <li><label>櫃門材質:</label><span>鍍鋅板+透明亞克力</span></li>
+              <li><label>空間溫度: </label><span>50°C-60°C(格子內)</span></li>
+              <li>
+                <label>環境溫度:</label
+                ><span>- 10°C-40°C(0°C-40°C為設備最佳運行溫度)</span>
+              </li>
+              <li><label>環境濕度：</label><span>5%-95% RH</span></li>
+              <li><label>產品功率: </label><span>約630W/台</span></li>
+              <li><label>重 量: </label><span>約125KG/台</span></li>
+              <li><label>輸入電壓:</label><span>110V</span></li>
+              <li>
+                <label>功 能: </label
+                ><span
+                  >10.1寸安卓一體機、二維碼掃描器、獨立單
+                  格加熱保溫、消毒燈，照明燈</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END 产品3 -->
+      <!-- STR 产品4 -->
+
+      <div class="product-con con-box">
+        <div class="product-txt">智能櫃全系列產品</div>
+        <div class="product-main">
+          <img src="pic/goods-05.jpg" alt="21門副櫃" />
+          <div class="product-main-con">
+            <div class="tit">
+              <h3>21門副櫃</h3>
+              <span>產品型號: DB21FHD-P(21門副櫃)</span>
+            </div>
+            <ul class="product-main-list">
+              <li>
+                <label>外觀尺寸:</label
+                ><span>1030(寬)*2035(高)*380(深) mm</span>
+              </li>
+              <li>
+                <label>小格口尺寸:</label
+                ><span>248(寬)*185(高)*300(深) mm</span>
+              </li>
+              <li>
+                <label>大格口尺寸:</label
+                ><span>248(寬)*304(高)*300 (深) mm</span>
+              </li>
+              <li><label>外殼材質:</label><span>鍍鋅板</span></li>
+              <li><label>櫃門材質:</label><span>鍍鋅板+透明亞克力</span></li>
+              <li><label>空間溫度: </label><span>50°C-60°C(格子內)</span></li>
+              <li>
+                <label>環境溫度:</label
+                ><span>- 10°C-40°C(0°C-40°C為設備最佳運行溫度)</span>
+              </li>
+              <li><label>環境濕度：</label><span>5%-95% RH</span></li>
+              <li><label>產品功率: </label><span>約630W/台</span></li>
+              <li><label>重 量: </label><span>約125KG/台</span></li>
+              <li><label>輸入電壓:</label><span>110V</span></li>
+              <li>
+                <label>功 能: </label
+                ><span>獨立單 格加熱保溫、消毒燈，照明燈</span>
+              </li>
+            </ul>
+            <div class="product-tip">與21門主櫃搭配使用</div>
+          </div>
+        </div>
+      </div>
+      <!-- END 产品4 -->
+      <!-- STR 案例 -->
+      <div class="case-con con-box" id="case">
+        <h3>案例介紹</h3>
+        <div class="case-box">
+          <ul id="caseList">
+            <li key="0" class="btn active">醫院</li>
+            <li key="1" class="btn">商辦</li>
+            <li key="2" class="btn">社區</li>
+            <li key="3" class="btn">學校</li>
+          </ul>
+          <div class="case-box-inner show" id="case0">
+            <p>
+              透過愛生活智能櫃的建置讓餐點不暴露在院內人來人往的環境中，降低病菌接觸的風險
+            </p>
+            <ul>
+              <li><img src="pic/c1.jpg" alt="图1" /></li>
+              <li><img src="pic/c2.jpg" alt="图1" /></li>
+            </ul>
+          </div>
+          <div class="case-box-inner" id="case1">
+            <p>
+              透過愛生活智能櫃的建置讓餐點不暴露在院內人來人往的環境中，降低病菌接觸的風險1
+            </p>
+            <ul>
+              <li><img src="pic/c1.jpg" alt="图1" /></li>
+              <li><img src="pic/c2.jpg" alt="图1" /></li>
+            </ul>
+          </div>
+          <div class="case-box-inner" id="case2">
+            <p>
+              透過愛生活智能櫃的建置讓餐點不暴露在院內人來人往的環境中，降低病菌接觸的風險2
+            </p>
+            <ul>
+              <li><img src="pic/c1.jpg" alt="图1" /></li>
+              <li><img src="pic/c2.jpg" alt="图1" /></li>
+            </ul>
+          </div>
+          <div class="case-box-inner" id="case3">
+            <p>
+              透過愛生活智能櫃的建置讓餐點不暴露在院內人來人往的環境中，降低病菌接觸的風險3
+            </p>
+            <ul>
+              <li><img src="pic/c1.jpg" alt="图1" /></li>
+              <li><img src="pic/c2.jpg" alt="图1" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- END 案例 -->
+      <!-- STR 流程1 -->
+      <div class="flow-con con-box">
+        <h3 class="flow-tit">愛生活 寄餐流程</h3>
+        <ul class="flow-box">
+          <li class="arw">
+            <em>step 1</em>
+            <span>掃描QR CODE</span>
+            <img src="pic/j1.png" alt="图1" />
+          </li>
+          <li class="arw">
+            <em>step 2</em>
+            <span>選擇寄餐</span>
+            <img src="pic/j2.png" alt="图1" />
+          </li>
+          <li>
+            <em>step 3</em>
+            <span>選擇櫃子尺寸.保溫方式 >下一步驟</span>
+            <img src="pic/j3.png" alt="图1" />
+          </li>
+          <li class="arw">
+            <em>step 4</em>
+            <span>輸入顧客電話號碼 >前往付款</span>
+            <img src="pic/j4.png" alt="图1" />
+          </li>
+          <li class="arw">
+            <em>step 5</em>
+            <span>支付I幣>付款</span>
+            <img src="pic/j5.png" alt="图1" />
+          </li>
+          <li>
+            <em>step 6</em>
+            <span>餐櫃門開啟放入餐點 >關閉櫃門即完成</span>
+            <img src="pic/j6.png" alt="图1" />
+          </li>
+        </ul>
+        <div class="flow-txt-1">六步驟輕鬆搞定</div>
+      </div>
+      <!-- END 流程1 -->
+      <!-- STR 流程2 -->
+      <div class="flow-con con-box">
+        <h3 class="flow-tit">取餐流程</h3>
+        <p class="flow-txt-2">
+          不需安裝app、不需任何簡訊費<br />
+          加入好友即可免費使用取餐服務<br />
+          推廣期加送100 I幣 免費存餐最多100次<br />
+          餐點可加熱保溫、安全衛生、不怕丟失
+        </p>
+        <ul class="flow-box">
+          <li class="arw">
+            <em>step 1</em>
+            <span>收到簡訊後至取餐櫃取餐</span>
+            <img src="pic/q1.png" alt="图1" />
+          </li>
+          <li class="arw">
+            <em>step 2</em>
+            <span>掃描 ＱＲ code</span>
+            <img src="pic/q2.png" alt="图1" />
+          </li>
+          <li>
+            <em>step 3</em>
+            <span>選擇取餐</span>
+            <img src="pic/q3.png" alt="图1" />
+          </li>
+          <li class="arw">
+            <em>step 4</em>
+            <span
+              >輸入電話號碼及取餐號碼<br />
+              >下一步驟</span
+            >
+            <img src="pic/q4.png" alt="图1" />
+          </li>
+          <li>
+            <em>step 5</em>
+            <span>打開櫃門取餐</span>
+            <img src="pic/q5.jpg" alt="图1" />
+          </li>
+        </ul>
+      </div>
+      <!-- END 流程2 -->
+      <!-- STR 关于爱生活 -->
+      <div class="about-con con-box" id="about">
+        <h3>關於愛生活</h3>
+        <p>
+          自2020年以來，全球受新冠肺炎(COVID-19)疫情的持續影響，已改變人們原有的生活樣貌，也為全球經濟、產業型態帶來不可逆的變化。針對後疫情時代的新零售交付場景，創點匠兄弟網路資訊股份有限公司推出“愛生活”服務，提供外送零接觸、安全、可靠的服務。
+        </p>
+        <p>
+          創點匠兄弟網路資訊股份有限公司成立於2022年7月，是一家專注於代理、研發和銷售智慧取餐櫃的專業服務商。智慧取餐櫃是我公司精心推出的單格溫控、消毒節能的核心產品，主打“以格子為單位的共用模式，為生鮮、外賣等運營平臺開放，提供線上訂單末端交付的櫃體存儲服務。
+        </p>
+      </div>
+      <!-- END 关于爱生活 -->
+      <!-- STR 联系我们 -->
+      <div class="contact-con con-box">
+        <h3>聯繫我們</h3>
+        <div class="recharges">
+          <div class="recharges-top">
+            <div class="rechargesone">郵件:</div>
+            <div class="rechargestwo" id="account">
+              barry.chung@91ilife.com.tw
+            </div>
+          </div>
+          <div class="recharges-btm">
+            <div class="button2" onclick="JavaScript:copyadds()">
+              複製郵箱地址
+            </div>
+            <form
+              name="form1"
+              method="post"
+              action="mailto:barry.chung@91ilife.com.tw"
+              enctype="text/plain"
+            >
+              <input type="submit" value="發郵件聯繫我們" class="button1" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- END 联系我们 -->
+    </div>
+    <script>
+      $(document).ready(function () {
+        // 滚动
+        let navArr = ["index", "seave", "intro", "case", "about", "link"];
+        navArr.forEach((item) => {
+          $(`#${item}Btn`).click(function () {
+            $("html, body").animate(
+              {
+                scrollTop: $(`#${item}`).offset().top,
+              },
+              1000
+            );
+          });
+        });
+
+        // 标签切换
+        $("#caseList .btn").on("click", function () {
+          let key = $(this).attr("key");
+          //修改选择样式
+          $(this).addClass("active").siblings().removeClass("active");
+          $(`#case${key}`).addClass("show").siblings().removeClass("show");
+        });
+      });
+
+      function copyadds() {
+        var acc = $(".rechargestwo").text();
+        copyadd(acc);
+      }
+
+      //复制的方法
+      function copyadd(add) {
+        var input = document.createElement("input");
+        document.body.appendChild(input);
+        input.setAttribute("value", add);
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+        alert("郵件復製成功!");
+      }
+    </script>
+  </body>
+</html>
